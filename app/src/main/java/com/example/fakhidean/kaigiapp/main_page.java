@@ -32,7 +32,7 @@ public class main_page extends FragmentActivity implements LocationListener {
         map.setMyLocationEnabled(true);
         map.addMarker(new MarkerOptions()
                 .position(new LatLng(29.940348,-90.120728))
-                .title("Tulane University"));
+                .title("Tulane University Adrian"));
 
 
     }
