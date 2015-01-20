@@ -52,16 +52,21 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
-
+        <!-- Map Activity -->
         <activity
             android:name=".main_page"
             android:label="@string/title_activity_main_page" >
-            <intent-filter>
+
+         <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
+
     </application>
 
 </manifest>
