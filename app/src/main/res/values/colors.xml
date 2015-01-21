@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#cb1919</color>
+    <color name="primaryColorDark">#2a1b1b</color>
+    <color name="buttonColor">#b2baca</color>
+    <color name="fieldHeader">#556679</color> <!-- use with 60% opacity -->
+    <color name="fieldBody">#b2baca</color>   <!-- use with 8% opacity -->
+    <color name="textField">#b2baca</color>
+</resources>
+
+

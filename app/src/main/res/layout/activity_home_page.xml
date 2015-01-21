@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.fakhidean.kaigiapp.home_page"
+    >
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/bg"
+        android:background="@drawable/bg_720"
+        android:contentDescription="background" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="155dp"
+        android:id="@+id/logo"
+        android:background="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="320dp"
+        android:id="@+id/loginbg"
+        android:background="@drawable/login_bg"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:id="@+id/arrow"
+        android:layout_marginBottom="15dp"
+        android:layout_alignBottom="@+id/loginbg"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/arrow" />
+
+
+    <fragment android:name="com.example.fakhidean.kaigiapp.signin"
+        android:id="@+id/signin_fragment"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_signin" />
+
+    <fragment android:name="com.example.fakhidean.kaigiapp.signup"
+        android:id="@+id/signup_fragment"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:layout="@layout/fragment_signup" />
+
+
+</RelativeLayout>
